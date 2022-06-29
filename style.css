@@ -1,0 +1,455 @@
+
+        html{
+        margin: 0; height: 100%; overflow: hidden
+        }
+
+        body {
+        background-image: url("others/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        position:relative; 
+        }
+        .clies{
+        position: relative;
+        right:-30px;        
+        cursor: pointer;
+        }
+        #cli-text{
+        font-size: 17px;
+        position: relative;
+        text-align: left;
+        color:rgb(26, 46, 46);
+        font-family: 'Anek Latin', sans-serif;
+        }
+        #hover:hover{ /*chắc đéo ai để ý đâu, nhưng cái outline nhìn buồi vcl*/
+        border: 1px solid #008EC8;
+        background:rgba(111, 186, 230, 0.185);
+        width: 120px; 
+        margin: -1px;
+        }   
+        #neofetch-tab {
+        font-family: Arial
+
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        /* The cli window */
+        #draggable {
+        border: 3px solid #f1f1f1;
+        border-top-left-radius: 4px;
+        border-top-right-radius:2px;
+        resize: both;
+        overflow: auto;
+        width: 1036px;
+        height: 512px;
+        position:absolute;
+        border-radius: 10px;
+        left :420px;
+        z-index: 9;
+        position:fixed
+        
+        }
+
+        /* Container for columns and the top "toolbar" */
+        .row {
+        padding: 10px;
+        background: #f1f1f1;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        z-index: 9;
+        /* cursor: move; */       
+        }
+
+        /* Create three unequal columns that floats next to each other */
+        .column {
+        float: left;
+        }
+
+        .left {
+        width: 7%;
+        }
+
+        .right {
+        width: 15%;
+        }
+
+        .middle {
+        width: 75%;
+
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+
+        }
+
+        /* Three dots */
+        .dot {
+        margin-top: 4px;
+        height: 12px;
+        width: 12px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        }
+
+        /* Style the input field */
+        input[type=text] {
+        width: 100%;
+        border-radius: 3px;
+        border: none;
+        background-color: white;
+        margin-top: -8px;
+        height: 25px;
+        color: #666;
+        padding: 5px;
+        }
+
+        /* Three bars (hamburger menu) */
+        .bar {
+        width: 17px;
+        height: 3px;
+        background-color: #aaa;
+        margin: 3px 0;
+        display: block;
+        }
+
+        /* Page content */
+        .content {
+        padding: 222px;
+        background: fixed;
+        background-color: rgba(102, 102, 102, 0.479);
+        } 
+        #zsh{
+        padding-left:400px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size:15px;
+        }
+        .tobydoge{
+        position:absolute;
+        left:-300px;
+        top:30px;
+        font-size:30px;
+        }
+        .kristiko{
+        position:absolute;
+        right:450px;
+        top:35px;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        .linebelowkris{
+        position:absolute;
+        right:450px;
+        top:45px;
+        font-size:20px;
+        }
+        .sysinfo{
+        position:absolute;
+        right:509px;
+        top:100px;
+        font-family: 'Work Sans', sans-serif;
+        color:#93e725;
+        font-weight: bold;
+        }
+        .systext{
+        position: absolute;
+        right:440px;
+        top:100px;
+        font-family: 'Ubuntu Mono', monospace;
+        }
+        .ownerinfoslide{
+        position:absolute;
+        right:360px;
+        top:250px;
+        font-size:20px;
+        }
+        .ownerinfo{
+        position:absolute;
+        right:370px;
+        top:270px;
+        font-family: 'Ubuntu Mono', monospace;
+        }
+        .black{
+                width:35px;
+                height:20px;
+                background:#154046d0;
+                float:left;
+                position: absolute;
+                left:405px;
+                bottom: 80px;
+        }
+        .blue{
+                width:35px;
+                height:20px;
+                background:#06e2ff98;
+                float:left;
+                position: absolute;
+                left:440px;
+                bottom: 80px;
+        }
+        .green{
+                width:35px;
+                height:20px;
+                background:#177477d0;
+                float:left;
+                position: absolute;
+                left:475px;
+                bottom: 80px;
+        }
+        .red{
+                width:35px;
+                height:20px;
+                background:#1ba2b4d0;
+                float:left;
+                position: absolute;
+                left:510px;
+                bottom: 80px;
+        }
+        .orange{
+                width:35px;
+                height:20px;
+                background:#266faad0;
+                float:left;
+                position: absolute;
+                left:545px;
+                bottom: 80px;
+        }
+        .purple{
+                width:35px;
+                height:20px;
+                background:#262faad0;
+                float:left;
+                position: absolute;
+                left:580px;
+                bottom: 80px;
+        }
+        .white{
+                width:35px;
+                height:20px;
+                background:#e4e5e6b6;
+                float:left;
+                position: absolute;
+                left:615px;
+                bottom: 80px;    
+        }
+        .black2{
+                width:35px;
+                height:20px;
+                background:#10363bd0;
+                float:left;
+                position: absolute;
+                left:405px;
+                bottom: 60px;
+        }
+        .blue2{
+                width:35px;
+                height:20px;
+                background:#05b5cc98;
+                float:left;
+                position: absolute;
+                left:440px;
+                bottom: 60px;
+        }
+        .green2{
+                width:35px;
+                height:20px;
+                background:#0f4c4ed0;
+                float:left;
+                position: absolute;
+                left:475px;
+                bottom: 60px;
+        }
+        .red2{
+                width:35px;
+                height:20px;
+                background:#0f5a64d0;
+                float:left;
+                position: absolute;
+                left:510px;
+                bottom: 60px;
+        }
+        .orange2{
+                width:35px;
+                height:20px;
+                background:#1b4e79d0;
+                float:left;
+                position: absolute;
+                left:545px;
+                bottom: 60px;
+        }
+        .purple2{
+                width:35px;
+                height:20px;
+                background:#181e6bd0;
+                float:left;
+                position: absolute;
+                left:580px;
+                bottom: 60px;
+        }
+        .white2{
+                width:35px;
+                height:20px;
+                background:#e4e5e66c;
+                float:left;
+                position: absolute;
+                left:615px;
+                bottom: 60px;    
+        }
+
+        #hover2{
+                position: absolute;
+                
+        }       
+        .fire{
+                position: relative;
+                left:30px;
+                bottom:-115px;
+                Display:inline;
+        }
+        #firetext{
+                font-size: 17px;
+                position: relative;
+                text-align: left;
+                color:rgb(26, 46, 46);
+                font-family: 'Anek Latin', sans-serif;
+                font-weight: bold;
+                right: 60px;
+                bottom: -30px;;
+                Display:inline;
+        }
+        #hover2:hover{ 
+                border: 1px solid #008EC8;
+                background:rgba(111, 186, 230, 0.185);
+                width: 120px; 
+                position: absolute;
+                 
+                margin: -1px;
+                height:100px;
+                cursor: pointer;
+                z-index:9;
+        }
+        #firefox-tab{
+                border: 3px solid #f1f1f1;
+                border-top-left-radius: 4px;
+                border-top-right-radius:2px;
+                resize: both;
+                overflow: auto;
+                width: 1789px;
+                height: 950px;
+                position:absolute;
+                border-radius: 10px;
+                left :420px;
+                z-index: 9;
+                position:fixed
+                
+        }
+        .contentff{
+                padding: 405px;
+                background: fixed;
+                background-color: rgba(102, 102, 102, 0.479);
+        }
+        .tab1{
+                overflow: hidden;
+                border: 1px solid #ccc;
+                background-color: #f1f1f1; 
+                padding: 10px 65px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                border-radius:8px;
+                position:relative;
+                top:-12px;
+                left:-50px;
+        }
+        .tab2{
+                overflow: hidden;
+                border: 1px solid #ccc;
+                background-color: #f1f1f1; 
+                padding: 10px 65px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                border-radius:8px;
+                position:relative;
+                top:-12px;
+                left:-50px;
+        }
+        .tab3{
+                overflow: hidden;
+                border: 1px solid #ccc;
+                background-color: #f1f1f1; 
+                padding: 10px 65px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                border-radius:8px;
+                position:relative;
+                top:-12px;
+                left:-50px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
